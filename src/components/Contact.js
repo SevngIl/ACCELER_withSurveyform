@@ -15,7 +15,7 @@ export default function Contact() {
     <>
       <Container
         className="text-center"
-        style={{ width: "50%", paddingTop: "2rem" }}
+        style={{ maxWidth: "400px", paddingTop: "2rem" }}
       >
         <Row>
           <div
