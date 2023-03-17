@@ -5,6 +5,12 @@ import Vision from "./components/Vision";
 import TeamInfo from "./components/TeamInfo";
 import Contact from "./components/Contact";
 import "./App.css";
+import Checkbox from "./components/survey/Checkbox";
+import RadioButton from "./components/survey/RadioButton";
+import QuestionForm from "./components/survey/QuestionForm";
+import ShortForm from "./components/survey/ShortForm";
+import AddingOption from "./components/survey/AddingOption";
+import SurveyForm from "./components/survey/SurveyForm";
 
 function App() {
   return (
@@ -15,6 +21,12 @@ function App() {
           <Route path="vision" element={<Vision />} />
           <Route path="teaminfo" element={<TeamInfo />} />
           <Route path="contact" element={<Contact />} />
+          <Route path="surveyform" element={<SurveyForm></SurveyForm>}/>
+          <Route path="checkbox" element={<Checkbox/>}> </Route>
+          <Route path="radiobutton" element={<RadioButton/>}/>
+          <Route path="questionform" element={<QuestionForm/>}/>
+          <Route path="shortform" element={<ShortForm/>}/>
+          <Route path="addingoption" element={<AddingOption/>}/>
         </Route>
       </Routes>
     </BrowserRouter>
