@@ -1,8 +1,8 @@
-# About
+# Survey Form
 
 <https://acceler.kr>
 
-Introduction page of KEA-ACCELER Team.
+Survey form of KEA-ACCELER Team.
 
 ## Getting Started with Create React App
 
